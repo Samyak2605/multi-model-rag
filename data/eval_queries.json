@@ -1,0 +1,42 @@
+{
+  "queries": [
+    {
+      "question": "What is the GDP growth forecast?",
+      "expected_pages": [1, 2, 3],
+      "category": "economic_forecast",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What are the main fiscal policy recommendations?",
+      "expected_pages": [5, 6, 7],
+      "category": "policy",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What does the inflation table show?",
+      "expected_pages": [10],
+      "category": "table_analysis",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What are the key risks to the global economy?",
+      "expected_pages": [],
+      "category": "risks",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Summarize the key findings of the report",
+      "expected_pages": [],
+      "category": "summary",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What are the economic risks and what mitigation strategies are suggested?",
+      "expected_pages": [],
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "use_multi_hop": true
+    }
+  ]
+}
+

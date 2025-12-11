@@ -1,0 +1,32 @@
+# Environment
+.env
+.venv
+venv/
+env/
+
+# Data
+data/vector_store/
+data/sample_docs/*.pdf
+data/sample_docs/*.png
+data/sample_docs/*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
